@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - "7"
+deploy:
+  provider: heroku
+  api_key: 0e4e2bbb5e0a4449691e81a81e198db2173a4391
+  app: alx-config-sample
